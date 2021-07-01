@@ -33,4 +33,5 @@ jobs:
         app-name: bigwebapp
         slot-name: Production
         publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4D6649701582495EA94F91447E55B11B }}
+        package: .
 
